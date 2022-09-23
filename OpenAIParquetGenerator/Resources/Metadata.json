@@ -1,0 +1,17 @@
+{
+  "RowCount": 10,
+  "Columns": [
+    {
+      "OutputName": "Age",
+      "PromptValue": "number between 20 and 100",
+      "StartNumber": 20,
+      "EndNumber": 80,
+      "Type": "int"
+    },
+    {
+      "OutputName": "Email",
+      "PromptValue": "emails with microsoft domain",
+      "Type": "string"
+    }
+  ]
+}
