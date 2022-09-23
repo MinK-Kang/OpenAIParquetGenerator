@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using OpenAI;
+using OpenAIParquetGenerator.Domain;
 using OpenAIParquetGenerator.Misc;
-using OpenAIParquetGenerator.Resources;
 using Parquet;
 using Parquet.Data;
 using System.Diagnostics;

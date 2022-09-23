@@ -1,4 +1,4 @@
-﻿namespace OpenAIParquetGenerator.Resources
+﻿namespace OpenAIParquetGenerator.Domain
 {
     public class Metadata
     {

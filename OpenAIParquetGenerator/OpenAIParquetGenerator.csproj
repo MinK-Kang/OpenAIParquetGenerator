@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OpenAIParquetGenerator.Domain\OpenAIParquetGenerator.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Resources\Metadata-Sample.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
