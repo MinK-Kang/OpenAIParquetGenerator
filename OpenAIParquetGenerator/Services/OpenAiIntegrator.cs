@@ -71,7 +71,7 @@ namespace OpenAIParquetGenerator.Services
                                     break;
 
                                 default:
-                                    Console.WriteLine($"Generating random int for the column {column.OutputName}");
+                                    Console.WriteLine($"Generating random value for the column {column.OutputName}");
 
                                     chunckedStringResult = await GetValuesFromOpenAI(column);
 
@@ -138,7 +138,7 @@ namespace OpenAIParquetGenerator.Services
                 presencePenalty: 0,
                 frequencyPenalty: 0,
                 temperature: 0.7,
-                max_tokens: 20 * Metadata.RowCount);
+                max_tokens: 50 * Metadata.RowCount);
 
             watch.Stop();
 

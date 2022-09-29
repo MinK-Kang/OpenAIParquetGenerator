@@ -2,16 +2,37 @@
   "RowCount": 10,
   "Columns": [
     {
+      "OutputName": "Name",
+      "PromptValue": "Brazilian Full Name",
+      "Type": "string"
+    },
+    {
       "OutputName": "Age",
-      "PromptValue": "number between 20 and 100",
+      "PromptValue": "number between 20 and 80",
       "StartNumber": 20,
       "EndNumber": 80,
       "Type": "int"
     },
     {
       "OutputName": "Email",
-      "PromptValue": "emails with microsoft domain",
+      "PromptValue": "emails with Microsoft domain",
       "Type": "string"
+    },
+    {
+      "OutputName": "Address",
+      "PromptValue": "Addresses in Seattle",
+      "Type": "string"
+    },
+    {
+      "OutputName": "Body",
+      "PromptValue": "Quote with maximum 50 characters",
+      "Type": "string"
+    },
+    {
+      "OutputName": "CreatedDateTime",
+      "StartDate": "2000-01-01",
+      "EndDate": "2022-12-31",
+      "Type": "datetime"
     }
   ]
 }
