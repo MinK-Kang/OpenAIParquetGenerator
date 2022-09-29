@@ -3,7 +3,7 @@
     public static class MetadataHelper
     {
         public static string GetPromptForRandomGeneration(string promptValue, int qty) =>
-            $"Generate randomly {qty} {promptValue} separated with semicolon";
+            $"Generate randomly {qty} {promptValue} separated with semicolons";
 
         public static Type GetFieldType(string type)
         {

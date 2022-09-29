@@ -58,6 +58,8 @@ namespace OpenAIParquetGenerator.Services
                                     column.EndDate)
                                     .ToArray();
 
+                                    Console.WriteLine();
+
                                     break;
 
                                 case ColumnValueType.Int:
@@ -68,12 +70,16 @@ namespace OpenAIParquetGenerator.Services
                                         column.EndNumber.GetValueOrDefault())
                                         .ToArray();
 
+                                    Console.WriteLine();
+
                                     break;
 
                                 default:
                                     Console.WriteLine($"Generating random value for the column {column.OutputName}");
 
                                     chunckedStringResult = await GetValuesFromOpenAI(column);
+
+                                    Console.WriteLine();
 
                                     break;
                             }

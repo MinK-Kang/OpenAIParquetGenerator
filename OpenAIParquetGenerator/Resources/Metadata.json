@@ -3,7 +3,7 @@
   "Columns": [
     {
       "OutputName": "Name",
-      "PromptValue": "Brazilian Full Name",
+      "PromptValue": "Korean Full Name",
       "Type": "string"
     },
     {
@@ -20,12 +20,12 @@
     },
     {
       "OutputName": "Address",
-      "PromptValue": "Addresses in Seattle",
+      "PromptValue": "addresses in Seattle",
       "Type": "string"
     },
     {
-      "OutputName": "Body",
-      "PromptValue": "Quote with maximum 50 characters",
+      "OutputName": "Message",
+      "PromptValue": "inpirational quotes",
       "Type": "string"
     },
     {
